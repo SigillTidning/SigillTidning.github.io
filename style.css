@@ -1,0 +1,29 @@
+
+html{
+    height: -webkit-fill-available !important;
+}
+
+body{
+    height: -webkit-fill-available !important;
+    background-color: #f7f7f7;
+}
+
+
+/* Card */
+.magazine-cover {
+  width: 100%;
+  max-width: 840px;
+  border-radius: 2px;
+  transition:
+    transform 0.15s ease-out,
+    box-shadow 0.15s ease-out;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  will-change: transform;
+  cursor: pointer;
+}
+
+/* Hover polish */
+.magazine-cover:hover {
+  box-shadow: 0 30px 60px rgba(0,0,0,0.35);
+  transform: scale(1.05);
+}
