@@ -5,14 +5,14 @@ html{
 
 body{
     height: -webkit-fill-available !important;
-    background-color: #f7f7f7;
+    background-color: #f7f7f7 !important;
 }
 
 
 /* Card */
 .magazine-cover {
   width: 100%;
-  max-width: 840px;
+  max-width: 820px;
   border-radius: 2px;
   transition:
     transform 0.15s ease-out,
