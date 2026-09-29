@@ -21,12 +21,8 @@
     <main>
       <div class="container-xl py-4" style="height: 100%;display: flex;justify-content: center;align-items: center;">
         <div style="width:100%;">
-          <!--Normal FLipbook
-          <div class="_df_book" height="500" webgl="true" backgroundcolor="teal"
-                  source="Sigill Återfödelse WEB.pdf"
-                  id="df_manual_book">
-          </div>-->
-          
+
+          <!--Normal FLipbook-->
           <div id="flipbookContainer"></div>
 
           <!--
@@ -51,9 +47,9 @@
 
       jQuery(document).ready(function () {
 
-      var pdf="Sigill Återfödelse WEB.pdf";
-      var options = {height: 500,pageMode:2,backgroundColor: "#008080",enableDownload:false,hideControls: "download,pageMode,share"};
-      flipBook = $("#flipbookContainer").flipBook(pdf, options);
+        var pdf="Sigill Återfödelse WEB.pdf";
+        var options = {height: 500,pageMode:2,backgroundColor: "#008080",enableDownload:false,hideControls: "download,pageMode,share"};
+        flipBook = $("#flipbookContainer").flipBook(pdf, options);
 
       });
     </script>
